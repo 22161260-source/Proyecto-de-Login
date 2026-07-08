@@ -3,42 +3,30 @@
 ## Portada
 
 **Proyecto:** Login funcional simulado + Panel de sistema (Sidebar / Navbar)
-**Materia:** _[Nombre de la materia]_
+**Materia:** _PROGRAMACION WEB_
 **Integrantes:**
 
-- [Nombre completo integrante 1] — usuario de GitHub: `@usuario1`
-- [Nombre completo integrante 2] — usuario de GitHub: `@usuario2`
+- [Vargas Vicente Ivonee Montserrat] — usuario de GitHub: `ivonee_montserrat_vargas_vicente`
+- [Matias Carreño Manuel de jesus ] — usuario de GitHub: `manueldJMatias`
 
 **Descripción breve:**
-Aplicación web de dos pantallas construida con HTML, CSS y JavaScript puro
-(sin frameworks ni librerías externas). Simula el acceso a un sistema escolar: el usuario
-inicia sesión en `login.html` con validaciones en JavaScript (sin backend) y,
-si son correctas, es redirigido a `index.html`, donde puede capturar un
-usuario (nombre, correo, contraseña, número de control de 8 dígitos y fecha
-de nacimiento) y verificar en el mismo formulario si es mayor de edad
-mediante un modal. Desde el navbar puede cerrar sesión y regresar al login.
+Aplicación web de dos pantallas construida con HTML, CSS y JavaScript puro(sin frameworks ni librerías externas). Simula el acceso a un sistema escolar:
+* el usuario inicia sesión en `login.html` con validaciones en JavaScript (sin backend) y,si son correctas, es redirigido a `index.html`, donde puede capturar un usuario (nombre, correo, contraseña, número de control de 6 dígitos y fecha de nacimiento) y verificar en el mismo formulario si es mayor de edad mediante un modal. Desde el navbar puede cerrar sesión y regresar al login.
 
 ---
 
-## 🔗 Links
+## Links
 
-- **Repositorio:** `https://github.com/usuario1/nombre-del-repo`
+- **Repositorio:** `https://github.com/22161260-soLogin.git'`
 - **GitHub Pages (demo en vivo):** `https://usuario1.github.io/nombre-del-repo/login.html`
 
 ---
 
-## 🧩 Documentación técnica
+## Documentación técnica
 
 ### Framework CSS utilizado
 
-No se utiliza ningún framework CSS ni de JavaScript (nada de Bootstrap,
-Tailwind, React ni Vue). Todo el maquetado (grid de formularios, botones,
-tarjetas, tabla, menú de usuario y modal) está hecho a mano en
-`css/style.css` y `css/login.css` con CSS puro (Flexbox, CSS Grid y la
-pseudo-clase `:has()`), y toda la interactividad (menú desplegable,
-modal, validaciones) está hecha con JavaScript puro (Vanilla JS), sin
-dependencias externas. Los íconos son SVG en línea, no una fuente de
-íconos externa.
+No se utiliza ningún framework CSS ni de JavaScript (nada de Bootstrap, Tailwind, React ni Vue). Todo el maquetado (grid de formularios, botones, tarjetas, tabla, menú de usuario y modal) está hecho a mano en `css/style.css` y `css/login.css` con CSS puro (Flexbox, CSS Grid y la pseudo-clase `:has()`), y toda la interactividad (menú desplegable, modal, validaciones) está hecha con JavaScript puro (Vanilla JS), sin dependencias externas. Los íconos son SVG en línea, no una fuente de íconos externa.
 
 ### Flujo del login hacia el sistema
 
