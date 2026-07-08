@@ -95,8 +95,10 @@ Así, el navbar muestra el nombre del usuario que inició sesión, con un menú 
 
 Capturas de referencia:
 
-- Pantalla de login vacía — `img/capturas/01-login.png`
-- Error de validación — `img/capturas/02-login-error.png`
+- Pantalla de login vacía — `<img width="663" height="467" alt="image" src="https://github.com/user-attachments/assets/ee3947c4-ceb1-4e12-8330-0c20408b1f50" />
+`
+- Error de validación — `<img width="425" height="494" alt="image" src="https://github.com/user-attachments/assets/3f0d1adc-a8df-406c-9fef-ffc8d736101d" />
+`
 
 ### 2. Sidebar y navbar (`index.html`, `css/style.css`)
 
@@ -105,8 +107,10 @@ Capturas de referencia:
 
 Capturas de referencia:
 
-- Sidebar abierto y cerrado — `img/capturas/03-sidebar.png`
-- Menú de usuario — `img/capturas/04-navbar-dropdown.png`
+- Sidebar abierto y cerrado — `<img width="705" height="203" alt="image" src="https://github.com/user-attachments/assets/68644ce9-9aa8-4756-93a9-6721b29fa35f" />
+`
+- Menú de usuario — `<img width="465" height="238" alt="image" src="https://github.com/user-attachments/assets/b292c02c-bfd0-45d8-9de7-e5ec6e5662dc" />
+`
 
 ### 3. Número de control y modal de edad (`js/app.js`)
 
@@ -115,15 +119,20 @@ Capturas de referencia:
 
 Capturas de referencia:
 
-- Formulario de captura con verificación de edad — `img/capturas/05-captura.png`
-- Modal de edad — `img/capturas/06-modal-edad.png`
+- Formulario de captura con verificación de edad — `<img width="605" height="133" alt="image" src="https://github.com/user-attachments/assets/f7c662ea-2911-4c38-99f8-276a08e89bed" />
+`
+- Modal de edad — `<img width="332" height="248" alt="image" src="https://github.com/user-attachments/assets/68973ee2-ca3f-40ec-a2f0-84a914612ed0" />
+`
 
 ### 4. Flujo completo funcionando
 
-Captura de referencia: login, panel y cierre de sesión — `img/capturas/07-flujo-completo.png`
+Captura de referencia: login, panel y cierre de sesión — `<img width="1366" height="278" alt="image" src="https://github.com/user-attachments/assets/971b51b5-8b32-463d-bc93-1b4198eee461" />
+`
 
 ---
+Captura de referencia: Captura — `<img width="1366" height="551" alt="image" src="https://github.com/user-attachments/assets/68f3f95c-1eef-4779-9f81-7ca56a4cacbb" />
 
+`
 ## Estructura del proyecto
 
 ```
