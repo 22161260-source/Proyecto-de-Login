@@ -6,10 +6,9 @@
 |---|---|
 | Proyecto | Login funcional simulado + Panel de sistema (Sidebar / Navbar) |
 | Materia | Programación Web |
-| Institución | _(agregar nombre de la institución)_ |
-| Docente | _(agregar nombre del docente)_ |
-| Grupo | _(agregar grupo)_ |
-| Fecha de entrega | _(agregar fecha)_ |
+| Institución | Instituto Tecnologico De Oaxaca |
+| Docente | Adelina Martinez Nieto  |
+
 
 **Integrantes:**
 
