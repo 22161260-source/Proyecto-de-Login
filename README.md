@@ -8,6 +8,7 @@
 | Materia | Programación Web |
 | Institución | Instituto Tecnologico De Oaxaca |
 | Docente | Adelina Martinez Nieto  |
+| Equipo | 13  |
 
 
 **Integrantes:**
