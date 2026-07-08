@@ -26,7 +26,7 @@ Aplicación web de dos pantallas construida con HTML, CSS y JavaScript puro, sin
 ## Enlaces
 
 - **Repositorio:** `https://github.com/22161260-source/Proyecto-de-Login`
-- **GitHub Pages (demo en vivo):** `https://usuario1.github.io/nombre-del-repo/login.html`
+- **GitHub Pages (demo en vivo):** `https://22161260-source.github.io/Proyecto-de-Login/`
 
 ---
 
