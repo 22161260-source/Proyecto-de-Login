@@ -2,8 +2,14 @@
 
 ## Portada
 
-**Proyecto:** Login funcional simulado + Panel de sistema (Sidebar / Navbar)
-**Materia:** Programación Web
+| Campo | Detalle |
+|---|---|
+| Proyecto | Login funcional simulado + Panel de sistema (Sidebar / Navbar) |
+| Materia | Programación Web |
+| Institución | _(agregar nombre de la institución)_ |
+| Docente | _(agregar nombre del docente)_ |
+| Grupo | _(agregar grupo)_ |
+| Fecha de entrega | _(agregar fecha)_ |
 
 **Integrantes:**
 
@@ -93,46 +99,54 @@ Así, el navbar muestra el nombre del usuario que inició sesión, con un menú 
 - Se conectó `utileria.js` para validar los campos antes de iniciar sesión.
 - Se guardó la sesión simulada en `sessionStorage` y se hizo la redirección a `index.html`.
 
-Capturas de referencia:
+**Pantalla de login vacía**
 
-- Pantalla de login vacía — `<img width="663" height="467" alt="image" src="https://github.com/user-attachments/assets/ee3947c4-ceb1-4e12-8330-0c20408b1f50" />
-`
-- Error de validación — `<img width="425" height="494" alt="image" src="https://github.com/user-attachments/assets/3f0d1adc-a8df-406c-9fef-ffc8d736101d" />
-`
+<img width="663" height="467" alt="Pantalla de login vacía" src="https://github.com/user-attachments/assets/ee3947c4-ceb1-4e12-8330-0c20408b1f50" />
+
+**Error de validación**
+
+<img width="425" height="494" alt="Errores de validación en el login" src="https://github.com/user-attachments/assets/3f0d1adc-a8df-406c-9fef-ffc8d736101d" />
 
 ### 2. Sidebar y navbar (`index.html`, `css/style.css`)
 
 - Se construyó el sidebar con el enlace Captura y el botón hamburguesa.
 - Se construyó el navbar con el nombre de usuario a la derecha y el menú desplegable con la opción Salir del sistema.
 
-Capturas de referencia:
+**Sidebar abierto y cerrado**
 
-- Sidebar abierto y cerrado — `<img width="705" height="203" alt="image" src="https://github.com/user-attachments/assets/68644ce9-9aa8-4756-93a9-6721b29fa35f" />
-`
-- Menú de usuario — `<img width="465" height="238" alt="image" src="https://github.com/user-attachments/assets/b292c02c-bfd0-45d8-9de7-e5ec6e5662dc" />
-`
+<img width="705" height="203" alt="Sidebar abierto y cerrado" src="https://github.com/user-attachments/assets/68644ce9-9aa8-4756-93a9-6721b29fa35f" />
+
+**Menú de usuario**
+
+<img width="465" height="238" alt="Menú desplegable de usuario" src="https://github.com/user-attachments/assets/b292c02c-bfd0-45d8-9de7-e5ec6e5662dc" />
 
 ### 3. Número de control y modal de edad (`js/app.js`)
 
 - Se agregó el campo de número de control y fecha de nacimiento al mismo formulario de Captura.
 - Se implementó un modal propio (overlay más un `div` con clase `oculto` que se muestra u oculta por JavaScript) que indica si el usuario es mayor o menor de edad, usando `calcularEdad()` y `esMayorDeEdad()`. Se cierra con la X, el botón Cerrar, haciendo clic fuera de la caja o con la tecla Esc.
 
-Capturas de referencia:
+**Formulario de captura con verificación de edad**
 
-- Formulario de captura con verificación de edad — `<img width="605" height="133" alt="image" src="https://github.com/user-attachments/assets/f7c662ea-2911-4c38-99f8-276a08e89bed" />
-`
-- Modal de edad — `<img width="332" height="248" alt="image" src="https://github.com/user-attachments/assets/68973ee2-ca3f-40ec-a2f0-84a914612ed0" />
-`
+<img width="605" height="133" alt="Formulario de captura" src="https://github.com/user-attachments/assets/f7c662ea-2911-4c38-99f8-276a08e89bed" />
 
-### 4. Flujo completo funcionando
+**Modal de edad**
 
-Captura de referencia: login, panel y cierre de sesión — `<img width="1366" height="278" alt="image" src="https://github.com/user-attachments/assets/971b51b5-8b32-463d-bc93-1b4198eee461" />
-`
+<img width="332" height="248" alt="Modal con el resultado de la verificación de edad" src="https://github.com/user-attachments/assets/68973ee2-ca3f-40ec-a2f0-84a914612ed0" />
+
+### 4. Vista de la sección Captura
+
+**Tabla de usuarios capturados**
+
+<img width="1366" height="551" alt="Sección de captura con tabla de usuarios" src="https://github.com/user-attachments/assets/68f3f95c-1eef-4779-9f81-7ca56a4cacbb" />
+
+### 5. Flujo completo funcionando
+
+**Login → panel → cierre de sesión**
+
+<img width="1366" height="278" alt="Flujo completo del sistema" src="https://github.com/user-attachments/assets/971b51b5-8b32-463d-bc93-1b4198eee461" />
 
 ---
-Captura de referencia: Captura — `<img width="1366" height="551" alt="image" src="https://github.com/user-attachments/assets/68f3f95c-1eef-4779-9f81-7ca56a4cacbb" />
 
-`
 ## Estructura del proyecto
 
 ```
