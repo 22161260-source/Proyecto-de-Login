@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar sesión | Sistema Escolar</title>
+
+  <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+  <div class="login-wrapper">
+    <div class="login-card">
+      <div class="login-brand">
+        <img src="img/logo.svg" alt="Logo del sistema" class="login-logo" />
+        <h1 class="login-titulo">Sistema Escolar</h1>
+        <p class="login-subtitulo">Ingresa tus credenciales para continuar</p>
+      </div>
+
+      <form id="formLogin" novalidate>
+        <div class="campo-grupo">
+          <label for="correo" class="campo-label">Correo electrónico</label>
+          <div class="campo-input-wrap">
+            <span class="campo-icono">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>
+            </span>
+            <input
+              type="text"
+              class="campo"
+              id="correo"
+              placeholder="usuario@escuela.com"
+              autocomplete="username"
+            />
+          </div>
+          <div class="campo-error" id="errorCorreo">
+            Ingresa un correo electrónico válido.
+          </div>
+        </div>
+
+        <div class="campo-grupo">
+          <label for="password" class="campo-label">Contraseña</label>
+          <div class="campo-input-wrap">
+            <span class="campo-icono">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>
+            </span>
+            <input
+              type="password"
+              class="campo"
+              id="password"
+              placeholder="Mínimo 8 caracteres"
+              autocomplete="current-password"
+            />
+            <button
+              class="campo-boton"
+              type="button"
+              id="btnVerPassword"
+              tabindex="-1"
+              aria-label="Mostrar u ocultar contraseña"
+            >
+              <svg id="iconoOjo" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            </button>
+          </div>
+          <div class="campo-error" id="errorPassword">
+            Debe tener 8+ caracteres, mayúscula, minúscula, número y carácter especial.
+          </div>
+        </div>
+
+        <div id="mensajeLogin" class="mensaje-error oculto" role="alert"></div>
+
+        <button type="submit" class="btn btn-primario btn-block">
+          Iniciar sesión
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/utileria.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
